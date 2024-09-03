@@ -52,21 +52,24 @@ document.querySelector('.copy').addEventListener('click', function() {
 
 document.querySelector('span.go').addEventListener('click', function() {
   document.getElementById('f14').style.display = 'block';
-    document.getElementById('f7').style.display = 'none';
   document.getElementById('f13').style.display = 'none';
 });
 
 document.querySelector('.ca1').addEventListener('click', function() {
+     document.getElementById('f7').style.display = 'none';
   document.getElementById('f13').style.display = 'block';
   document.getElementById('f12').style.display = 'block';
+ 
 });
 
 document.querySelector('.ca3').addEventListener('click', function() {
+     document.getElementById('f7').style.display = 'none';
   document.getElementById('f15').style.display = 'block';
   document.getElementById('f16').style.display = 'block';
 });
 
 document.querySelector('.ca2').addEventListener('click', function() {
+     document.getElementById('f7').style.display = 'none';
   document.getElementById('f18').style.display = 'block';
   document.getElementById('f19').style.display = 'block';
 });
