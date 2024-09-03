@@ -76,6 +76,7 @@ document.querySelector('.ca2').addEventListener('click', function() {
 
 document.querySelector('.carta').addEventListener('click', function() {
   document.getElementById('f12').style.display = 'none';
+      document.getElementById('f7').style.display = 'block';
 });
 
 document.querySelector('.anillo').addEventListener('click', function() {
@@ -86,6 +87,8 @@ document.querySelector('.anillo').addEventListener('click', function() {
 document.querySelector('.marry').addEventListener('click', function() {
   document.getElementById('f15').style.display = 'none';
   document.getElementById('f17').style.display = 'none';
+      document.getElementById('f7').style.display = 'block';
+
 });
 
 document.querySelector('.meme').addEventListener('click', function() {
