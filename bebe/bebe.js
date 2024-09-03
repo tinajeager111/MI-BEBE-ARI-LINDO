@@ -1,4 +1,4 @@
-// Mostrar y ocultar elementos
+ // Mostrar y ocultar elementos
 document.querySelector('.no').addEventListener('click', function() {
   document.getElementById('f1').style.display = 'none';
   document.getElementById('f2').style.display = 'block';
@@ -52,6 +52,7 @@ document.querySelector('.copy').addEventListener('click', function() {
 
 document.querySelector('span.go').addEventListener('click', function() {
   document.getElementById('f14').style.display = 'block';
+    document.getElementById('f7').style.display = 'none';
   document.getElementById('f13').style.display = 'none';
 });
 
